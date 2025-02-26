@@ -1,10 +1,15 @@
+import { Route, Routes } from "react-router"
+import Home from "./Pages/Home"
 
 
 function App() {
 
   return (
     <>
-      <h1 className="text-xl px-4 py-4 text-teal-600">Hello</h1>
+      <Routes>
+        <Route index element={<Home />} />
+
+      </Routes>
     </>
   )
 }
