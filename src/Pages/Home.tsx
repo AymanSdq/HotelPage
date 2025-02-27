@@ -5,8 +5,13 @@ const Home = () => {
     return (
         <>
             <Header />
-            <section className="w-full">
-            
+            <section className="w-full bg-[#FAFAFA]">
+                {/* Hero Section */}
+                <div className="w-full flex h-screen">
+                    <div className="w-1/2 ">
+                        
+                    </div>
+                </div>
             </section>
         </>
     )

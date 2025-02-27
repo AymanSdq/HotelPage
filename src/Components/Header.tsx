@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <div className="navbar py-4 md:px-16 outline-0">
+        <div className="navbar bg-[#FAFAFA] py-4 md:px-16 outline-0">
         <div className="navbar-start">
             <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
