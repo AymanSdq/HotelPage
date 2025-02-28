@@ -1,8 +1,16 @@
 import { FaLocationDot } from "react-icons/fa6";
+import { HiMiniBuildingOffice2 } from "react-icons/hi2";
+import { FaUser } from "react-icons/fa";
+import { FaCalendar } from "react-icons/fa";
 import Header from "../Components/Header"
+import { useState } from "react";
+
+
 
 
 const Home = () => {
+
+
     return (
         <>
             <Header />
@@ -28,29 +36,63 @@ const Home = () => {
                     {/* Chekin */}
                     <div className="w-full bg-white h-30 absolute bottom-20">
                         <form action="" className="w-full h-full grid grid-cols-6 bg-white">
-                            <div className="cols-span-1 gap-4 flex justify-center items-start">
-                                <FaLocationDot className="text-3xl" />
-                                <div className="flex flex-col">
-                                    <label htmlFor="location">Location</label>
-                                    <select id="location" defaultValue="Pick a font" className="select pl-0 py-0 select-ghost">
-                                        <option disabled={true}>Abuja</option>
-                                        <option>New York</option>
-                                        <option>Paris</option>
-                                        <option>Viena</option>
-                                    </select>
+                            <div className="cols-span-1 flex justify-center items-center">
+                                <div className="flex gap-4">
+                                    <FaLocationDot className="text-3xl" />
+                                    <div className="flex flex-col">
+                                        <label htmlFor="location">Location</label>
+                                        <select id="location" defaultValue="Pick a font" className="select pl-0 py-0 select-ghost w-[100px]">
+                                            <option disabled={true}>Abuja</option>
+                                            <option>New York</option>
+                                            <option>Paris</option>
+                                            <option>Viena</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
                             <div className="cols-span-1 flex justify-center items-center">
-                                Hello
+                                <div className="flex gap-4">
+                                    <HiMiniBuildingOffice2 className="text-3xl" />
+                                    <div className="flex flex-col">
+                                        <label htmlFor="location">Room type</label>
+                                        <select id="location" defaultValue="Pick a font" className="w-[100px] select pl-0 py-0 select-ghost">
+                                            <option disabled={true}>Standard</option>
+                                            <option>Duo</option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
                             <div className="cols-span-1 flex justify-center items-center">
-                                Hello
+                                <div className="flex gap-4">
+                                    <FaUser className="text-3xl" />
+                                    <div className="flex flex-col">
+                                        <label htmlFor="location">Person</label>
+                                        <select id="location" defaultValue="Pick a font" className="w-[100px] select pl-0 py-0 select-ghost">
+                                            <option disabled={true}>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
                             <div className="cols-span-1 flex justify-center items-center">
-                                Hello
+                                <div className="flex gap-4">
+                                    <FaCalendar className="text-3xl" />
+                                    <div className="flex flex-col">
+                                        <label htmlFor="location">Check in</label>
+                                        <input type="date" placeholder="" className="input input-ghost" />
+                                    </div>
+                                </div>
                             </div>
                             <div className="cols-span-1 flex justify-center items-center">
-                                Hello
+                                <div className="flex gap-4">
+                                    <FaCalendar className="text-3xl" />
+                                    <div className="flex flex-col">
+                                        <label htmlFor="location">Check Out</label>
+                                        <input type="date" placeholder="" className="input input-ghost" />
+                                    </div>
+                                </div>
                             </div>
                             <div className="cols-span-1 flex justify-center items-center">
                                 <button type="submit" className="text-[15px] rounded-md text-white bg-[#7C6A46] py-5 px-12">Book Now</button>
