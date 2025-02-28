@@ -1,3 +1,4 @@
+import { FaLocationDot } from "react-icons/fa6";
 import Header from "../Components/Header"
 
 
@@ -7,7 +8,7 @@ const Home = () => {
             <Header />
             <section className="w-full md:px-16 bg-[#FAFAFA]">
                 {/* Hero Section */}
-                <div className="w-full  h-[calc(100vh-81px)] flex ">
+                <div className="w-full relative h-[calc(100vh-81px)] flex ">
                     <div className="w-1/2 py-[59px] flex flex-col gap-6">
                         <h1 className="text-[50px] dancing-script font-semibold text-[#7C6A46]">Paradise View</h1>
                         <h2 className="text-[55px] leading-[70px] font-bold raleway w-[400px]">Hotel for every moment rich in emotion</h2>
@@ -21,8 +22,40 @@ const Home = () => {
                             </a>
                         </div>
                     </div>
+                    {/* Only image */}
                     <div className="w-1/2  bg-[url(/bghotel.png)] bg-cover ">
-                        
+                    </div>
+                    {/* Chekin */}
+                    <div className="w-full bg-white h-30 absolute bottom-20">
+                        <form action="" className="w-full h-full grid grid-cols-6 bg-white">
+                            <div className="cols-span-1 gap-4 flex justify-center items-start">
+                                <FaLocationDot className="text-3xl" />
+                                <div className="flex flex-col">
+                                    <label htmlFor="location">Location</label>
+                                    <select id="location" defaultValue="Pick a font" className="select pl-0 py-0 select-ghost">
+                                        <option disabled={true}>Abuja</option>
+                                        <option>New York</option>
+                                        <option>Paris</option>
+                                        <option>Viena</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div className="cols-span-1 flex justify-center items-center">
+                                Hello
+                            </div>
+                            <div className="cols-span-1 flex justify-center items-center">
+                                Hello
+                            </div>
+                            <div className="cols-span-1 flex justify-center items-center">
+                                Hello
+                            </div>
+                            <div className="cols-span-1 flex justify-center items-center">
+                                Hello
+                            </div>
+                            <div className="cols-span-1 flex justify-center items-center">
+                                <button type="submit" className="text-[15px] rounded-md text-white bg-[#7C6A46] py-5 px-12">Book Now</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </section>
