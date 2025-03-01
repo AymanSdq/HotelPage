@@ -35,7 +35,7 @@ const Home = () => {
                     <div className="w-1/2  bg-[url(/bghotel.png)] bg-cover ">
                     </div>
                     {/* Chekin */}
-                    <div className="w-[90%] bg-white h-30 absolute bottom-20">
+                    <div className="left-0 md:mx-16 right-0 bg-white h-30 absolute bottom-8">
                         <form action="" className="w-full h-full grid grid-cols-6 bg-white">
                             <div className="col-span-1 flex justify-center items-center">
                                 <div className="flex gap-4">
