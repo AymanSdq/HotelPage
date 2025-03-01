@@ -144,6 +144,24 @@ const Home = () => {
                     </div>
                 </div>
 
+                {/* Luxry Rooms */}
+                <div className="w-full md:px-16 text-center py-6 pb-14 text-white bg-[url('/Lux.png')]">
+                    <h1 className="raleway text-5xl">Luxurious Rooms</h1>
+                    <svg className="mx-auto my-4" width="138" height="6" viewBox="0 0 138 6" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="138" height="6" fill="white"/></svg>
+                    <p>All room are design for your comfort</p>
+                    <div className="w-full grid grid-cols-3">
+                        <div className="col-span-1">
+                            
+                        </div>
+                        <div className="col-span-1">
+                            
+                        </div>
+                        <div className="col-span-1">
+                            
+                        </div>
+                    </div>
+                </div>
+
             </section>
         </>
     )
