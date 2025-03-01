@@ -149,14 +149,26 @@ const Home = () => {
                     <h1 className="raleway text-5xl">Luxurious Rooms</h1>
                     <svg className="mx-auto my-4" width="138" height="6" viewBox="0 0 138 6" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="138" height="6" fill="white"/></svg>
                     <p>All room are design for your comfort</p>
-                    <div className="w-full grid grid-cols-3">
-                        <div className="col-span-1">
+                    <div className="w-full grid grid-cols-3 gap-12 mt-[71px]">
+                        <div className="col-span-1 rounded-md p-6 bg-white">
+                            <div className="h-[285px] px-3 py-3 mb-4 bg-[url('/room1.png')] bg-cover rounded-sm ">
+                                <button className="text-white text-sm py-2 px-2 rounded-sm float-end flex bg-[#7C6A46]">2 Rooms available</button>
+                            </div>
+                            <p className="raleway text-black">Television set, Extra sheets and Breakfast</p>
                             
                         </div>
-                        <div className="col-span-1">
+                        <div className="col-span-1  rounded-md p-6 bg-white">
+                            <div className="h-[285px] px-3 py-3 mb-4 bg-[url('/room2.png')] bg-cover rounded-sm ">
+                                <button className="text-white text-sm py-2 px-2 rounded-sm float-end flex bg-[#7C6A46]">4 Rooms available</button>
+                            </div>
+                            <p className="raleway text-black">Television set, Extra sheets, Breakfast, and fireplace</p>
                             
                         </div>
-                        <div className="col-span-1">
+                        <div className="col-span-1  rounded-md p-6 bg-white">
+                            <div className="h-[285px] px-3 py-3 mb-4 bg-[url('/room3.png')] bg-cover rounded-sm ">
+                                <button className="text-white text-sm py-2 px-2 rounded-sm float-end flex bg-[#7C6A46]">8 Rooms available</button>
+                            </div>
+                            <p className="raleway text-black">Television set, Extra sheets, Breakfast, and fireplace, Console and bed rest</p>
                             
                         </div>
                     </div>
