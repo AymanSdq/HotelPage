@@ -177,7 +177,7 @@ const Home = () => {
                 {/* Testimonies */}
                 <div className="w-full text-center py-16 bg-white">
                     <h1 className="raleway text-5xl">Testimonies</h1>
-                    
+                    {/* Here goes slider */}
                 </div>
 
             </section>
