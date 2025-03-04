@@ -4,6 +4,7 @@ import { FaUser } from "react-icons/fa";
 import { FaCalendar } from "react-icons/fa";
 import Header from "../Components/Header"
 import { useState } from "react";
+import Footer from "../Components/Footer";
 
 
 
@@ -181,7 +182,10 @@ const Home = () => {
                     
                 </div>
 
+
             </section>
+
+            <Footer />
         </>
     )
 }
