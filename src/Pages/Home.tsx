@@ -1,12 +1,15 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper/modules';
 import { FaLocationDot } from "react-icons/fa6";
 import { HiMiniBuildingOffice2 } from "react-icons/hi2";
 import { FaUser } from "react-icons/fa";
 import { FaCalendar } from "react-icons/fa";
 import Header from "../Components/Header"
-import { useState } from "react";
 import Footer from "../Components/Footer";
 
 
+import 'swiper/swiper-bundle.css'
+import 'swiper/modules'
 
 
 const Home = () => {
@@ -179,7 +182,19 @@ const Home = () => {
                 <div className="w-full text-center py-16 bg-white">
                     <h1 className="raleway text-5xl">Testimonies</h1>
                     {/* Here goes slider */}
-                    
+                    <div className='w-full pl-16 mt-14'>
+                        <Swiper slidesPerView={2.5} spaceBetween={30} modules={[Pagination]} className="mySwiper" >
+                            <SwiperSlide className='w-[300px] h-[300px] bg-red-900'>Slide 1</SwiperSlide>
+                            <SwiperSlide>Slide 2</SwiperSlide>
+                            <SwiperSlide>Slide 3</SwiperSlide>
+                            <SwiperSlide>Slide 4</SwiperSlide>
+                            <SwiperSlide>Slide 5</SwiperSlide>
+                            <SwiperSlide>Slide 6</SwiperSlide>
+                            <SwiperSlide>Slide 7</SwiperSlide>
+                            <SwiperSlide>Slide 8</SwiperSlide>
+                            <SwiperSlide>Slide 9</SwiperSlide>
+                        </Swiper>
+                    </div>
                 </div>
 
 
