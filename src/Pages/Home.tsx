@@ -184,15 +184,87 @@ const Home = () => {
                     {/* Here goes slider */}
                     <div className='w-full pl-16 mt-14'>
                         <Swiper slidesPerView={2.5} spaceBetween={30} modules={[Pagination]} className="mySwiper" >
-                            <SwiperSlide className='w-[300px] h-[300px] bg-red-900'>Slide 1</SwiperSlide>
-                            <SwiperSlide>Slide 2</SwiperSlide>
-                            <SwiperSlide>Slide 3</SwiperSlide>
-                            <SwiperSlide>Slide 4</SwiperSlide>
-                            <SwiperSlide>Slide 5</SwiperSlide>
-                            <SwiperSlide>Slide 6</SwiperSlide>
-                            <SwiperSlide>Slide 7</SwiperSlide>
-                            <SwiperSlide>Slide 8</SwiperSlide>
-                            <SwiperSlide>Slide 9</SwiperSlide>
+                            <SwiperSlide>
+                                <div className='w-full flex flex-col gap-13'>
+                                    <div className='w-full flex justify-between'>
+                                        <p className='text-black text-sm'>2 Mar. 2023</p>
+                                        <div className='flex'>
+                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.61711 13L3.72895 8.19342L0 4.96053L4.92632 4.53289L6.84211 0L8.7579 4.53289L13.6842 4.96053L9.95526 8.19342L11.0671 13L6.84211 10.4513L2.61711 13Z" fill="#FFCE31"/></svg>
+                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.61711 13L3.72895 8.19342L0 4.96053L4.92632 4.53289L6.84211 0L8.7579 4.53289L13.6842 4.96053L9.95526 8.19342L11.0671 13L6.84211 10.4513L2.61711 13Z" fill="#FFCE31"/></svg>
+                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.61711 13L3.72895 8.19342L0 4.96053L4.92632 4.53289L6.84211 0L8.7579 4.53289L13.6842 4.96053L9.95526 8.19342L11.0671 13L6.84211 10.4513L2.61711 13Z" fill="#FFCE31"/></svg>
+                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.61711 13L3.72895 8.19342L0 4.96053L4.92632 4.53289L6.84211 0L8.7579 4.53289L13.6842 4.96053L9.95526 8.19342L11.0671 13L6.84211 10.4513L2.61711 13Z" fill="#FFCE31"/></svg>
+                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.84211 3.50658V8.84342L8.99737 10.1605L8.43289 7.69737L10.3316 6.05526L7.83421 5.83289L6.84211 3.50658ZM2.61711 13L3.72895 8.19342L0 4.96053L4.92632 4.53289L6.84211 0L8.7579 4.53289L13.6842 4.96053L9.95526 8.19342L11.0671 13L6.84211 10.4513L2.61711 13Z" fill="#FFCE31"/></svg>
+                                        </div>
+                                    </div>
+
+                                    {/* Content */}
+                                    <div className='raleway '>
+                                        <p className='text-justify text-sm'>
+                                            <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 0L4.8 6.4H9.6V16H0V6.4L3.2 0H8ZM20.8 0L17.6 6.4H22.4V16H12.8V6.4L16 0H20.8Z" fill="#7C6A46"/></svg>
+                                            The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us). Numerous conference attendees commented on the quality of the food, the quality of the service and overall positive attitude toward the conference site. Particular noteworthy is the longevity of the staff and that sense of investment in the success of every event. I usually offer suggestions for improvements (part of being a marketing professor), but there is absolutely nothing that could be improved – you have set the bar very high. </p>
+                                        <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.4 16H19.2L22.4 9.6V0H12.8V9.6H17.6M1.6 16H6.4L9.6 9.6V0H0V9.6H4.8L1.6 16Z" fill="#7C6A46"/></svg>
+                                    </div>
+
+                                    <div className='flex items-center gap-4'>
+                                        <img className='w-10' src="/avatar1.png" alt="Avatar" />
+                                        <p>Anthony Bruff</p>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='w-full flex flex-col gap-13'>
+                                    <div className='w-full flex justify-between'>
+                                        <p className='text-black text-sm'>2 Mar. 2023</p>
+                                        <div className='flex'>
+                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.61711 13L3.72895 8.19342L0 4.96053L4.92632 4.53289L6.84211 0L8.7579 4.53289L13.6842 4.96053L9.95526 8.19342L11.0671 13L6.84211 10.4513L2.61711 13Z" fill="#FFCE31"/></svg>
+                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.61711 13L3.72895 8.19342L0 4.96053L4.92632 4.53289L6.84211 0L8.7579 4.53289L13.6842 4.96053L9.95526 8.19342L11.0671 13L6.84211 10.4513L2.61711 13Z" fill="#FFCE31"/></svg>
+                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.61711 13L3.72895 8.19342L0 4.96053L4.92632 4.53289L6.84211 0L8.7579 4.53289L13.6842 4.96053L9.95526 8.19342L11.0671 13L6.84211 10.4513L2.61711 13Z" fill="#FFCE31"/></svg>
+                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.61711 13L3.72895 8.19342L0 4.96053L4.92632 4.53289L6.84211 0L8.7579 4.53289L13.6842 4.96053L9.95526 8.19342L11.0671 13L6.84211 10.4513L2.61711 13Z" fill="#FFCE31"/></svg>
+                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.84211 3.50658V8.84342L8.99737 10.1605L8.43289 7.69737L10.3316 6.05526L7.83421 5.83289L6.84211 3.50658ZM2.61711 13L3.72895 8.19342L0 4.96053L4.92632 4.53289L6.84211 0L8.7579 4.53289L13.6842 4.96053L9.95526 8.19342L11.0671 13L6.84211 10.4513L2.61711 13Z" fill="#FFCE31"/></svg>
+                                        </div>
+                                    </div>
+
+                                    {/* Content */}
+                                    <div className='raleway '>
+                                        <p className='text-justify text-sm'>
+                                            <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 0L4.8 6.4H9.6V16H0V6.4L3.2 0H8ZM20.8 0L17.6 6.4H22.4V16H12.8V6.4L16 0H20.8Z" fill="#7C6A46"/></svg>
+                                            The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us). Numerous conference attendees commented on the quality of the food, the quality of the service and overall positive attitude toward the conference site. Particular noteworthy is the longevity of the staff and that sense of investment in the success of every event. I usually offer suggestions for improvements (part of being a marketing professor), but there is absolutely nothing that could be improved – you have set the bar very high. </p>
+                                        <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.4 16H19.2L22.4 9.6V0H12.8V9.6H17.6M1.6 16H6.4L9.6 9.6V0H0V9.6H4.8L1.6 16Z" fill="#7C6A46"/></svg>
+                                    </div>
+
+                                    <div className='flex items-center gap-4'>
+                                        <img className='w-10' src="/avatar2.png" alt="Avatar" />
+                                        <p>Regina Gella</p>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='w-full flex flex-col gap-13'>
+                                    <div className='w-full flex justify-between'>
+                                        <p className='text-black text-sm'>2 Mar. 2023</p>
+                                        <div className='flex'>
+                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.61711 13L3.72895 8.19342L0 4.96053L4.92632 4.53289L6.84211 0L8.7579 4.53289L13.6842 4.96053L9.95526 8.19342L11.0671 13L6.84211 10.4513L2.61711 13Z" fill="#FFCE31"/></svg>
+                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.61711 13L3.72895 8.19342L0 4.96053L4.92632 4.53289L6.84211 0L8.7579 4.53289L13.6842 4.96053L9.95526 8.19342L11.0671 13L6.84211 10.4513L2.61711 13Z" fill="#FFCE31"/></svg>
+                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.61711 13L3.72895 8.19342L0 4.96053L4.92632 4.53289L6.84211 0L8.7579 4.53289L13.6842 4.96053L9.95526 8.19342L11.0671 13L6.84211 10.4513L2.61711 13Z" fill="#FFCE31"/></svg>
+                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.61711 13L3.72895 8.19342L0 4.96053L4.92632 4.53289L6.84211 0L8.7579 4.53289L13.6842 4.96053L9.95526 8.19342L11.0671 13L6.84211 10.4513L2.61711 13Z" fill="#FFCE31"/></svg>
+                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.84211 3.50658V8.84342L8.99737 10.1605L8.43289 7.69737L10.3316 6.05526L7.83421 5.83289L6.84211 3.50658ZM2.61711 13L3.72895 8.19342L0 4.96053L4.92632 4.53289L6.84211 0L8.7579 4.53289L13.6842 4.96053L9.95526 8.19342L11.0671 13L6.84211 10.4513L2.61711 13Z" fill="#FFCE31"/></svg>
+                                        </div>
+                                    </div>
+
+                                    {/* Content */}
+                                    <div className='raleway '>
+                                        <p className='text-justify text-sm'>
+                                            <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 0L4.8 6.4H9.6V16H0V6.4L3.2 0H8ZM20.8 0L17.6 6.4H22.4V16H12.8V6.4L16 0H20.8Z" fill="#7C6A46"/></svg>
+                                            The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us). Numerous conference attendees commented on the quality of the food, the quality of the service and overall positive attitude toward the conference site. Particular noteworthy is the longevity of the staff and that sense of investment in the success of every event. I usually offer suggestions for improvements (part of being a marketing professor), but there is absolutely nothing that could be improved – you have set the bar very high. </p>
+                                        <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.4 16H19.2L22.4 9.6V0H12.8V9.6H17.6M1.6 16H6.4L9.6 9.6V0H0V9.6H4.8L1.6 16Z" fill="#7C6A46"/></svg>
+                                    </div>
+
+                                    <div className='flex items-center gap-4'>
+                                        <img className='w-10' src="/avatar3.png" alt="Avatar" />
+                                        <p>Jamiyu Aliyu</p>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
                         </Swiper>
                     </div>
                 </div>
