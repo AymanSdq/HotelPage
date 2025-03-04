@@ -34,12 +34,13 @@ const Footer = () => {
       <nav>
         <h6 className="footer-title raleway">Newsletter</h6>
         <p className="text-xs w-[234px] raleway">Kindly subscribe to our newsletter to get latest deals on our rooms and vacation discount.</p>
-        <div className="my-4">
-          <input type="" placeholder="Enter your email" className="bg-white text-black rounded-md" />
+        <div className="my-4 relative  w-[360px]">
+          <input type="" placeholder="Enter your email" className="bg-white text-black rounded-md py-3 border-none w-full px-4" />
+          <button className="text-white bg-[#7C6A46] absolute right-[2px] top-[2px] px-4 rounded-sm bottom-[2px] ">Subscribe</button>
         </div>
       </nav>
     </footer>
-    <footer className="footer border-t border-[#D9D9D9] sm:footer-horizontal raleway footer-center text-white bg-[#7C6A46] py-12">
+    <footer className="footer border-t border-[#D9D9D9] sm:footer-horizontal raleway footer-center py-8 text-white bg-[#7C6A46]">
       <aside>
         <p className="raleway font-semibold">Paradise view 2023</p>
       </aside>
