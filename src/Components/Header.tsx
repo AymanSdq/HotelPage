@@ -1,3 +1,5 @@
+import { NavLink } from "react-router";
+
 const Header = () => {
     return (
         <div className="navbar --font-display bg-[#FAFAFA] py-4 md:px-16 outline-0">
@@ -22,11 +24,11 @@ const Header = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Explore</a></li>
-                <li><a href="#">Rooms</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><NavLink to="/" end> Home </NavLink></li> 
+                <li><NavLink to="/explore" end> Explore </NavLink></li>
+                <li><NavLink to="/rooms" end> Rooms </NavLink></li>
+                <li><NavLink to="/about" end> About </NavLink></li>
+                <li><NavLink to="/contact" end> Contact </NavLink></li>
             </ul>
         </div>
         <div className="navbar-end">
