@@ -6,7 +6,10 @@ const Explore = () => {
     return (
         <>
             <Header />
-            
+            {/* Header Section */}
+            <section className="w-full">
+
+            </section>
             <Footer />
         </>
     )
