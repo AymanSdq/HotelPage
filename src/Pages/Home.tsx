@@ -28,8 +28,8 @@ const Home = () => {
                         <p className="raleway w-[261px]">Every moment feels like the first time in paradise view</p>
                         {/* Buttons */}
                         <div className="w-full flex my-8 gap-12">
-                            <a href="#" className="text-xl px-9 py-4 rounded-full text-white bg-[#7C6A46]">Book now</a>
-                            <a href="#" className="flex items-center gap-4">
+                            <a href="/" className="text-xl px-9 py-4 rounded-full text-white bg-[#7C6A46]">Book now</a>
+                            <a href="/" className="flex items-center gap-4">
                                 <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="27.5" cy="27.5" r="27.5" fill="#00A699"/><path d="M21 36V18L34 27L21 36Z" fill="white"/></svg>
                                 <p className="text-xl">Take a tour</p>
                             </a>

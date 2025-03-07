@@ -11,14 +11,14 @@ const Header = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />{" "} </svg>
             </div>
             <ul tabIndex={0} className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow" >
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Explore</a></li>
-                <li><a href="#">Rooms</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><NavLink to="/" end> Home </NavLink></li> 
+                <li><NavLink to="/explore" end> Explore </NavLink></li>
+                <li><NavLink to="/rooms" end> Rooms </NavLink></li>
+                <li><NavLink to="/about" end> About </NavLink></li>
+                <li><NavLink to="/contact" end> Contact </NavLink></li>
             </ul>
             </div>
-            <a  href="/" className="">
+            <a href="/" className="">
                 <img src="/Logo.svg" alt="Logo" />
             </a>
         </div>
@@ -32,7 +32,7 @@ const Header = () => {
             </ul>
         </div>
         <div className="navbar-end">
-            <a className="btn text-white bg-[#7C6A46]">Book now</a>
+            <a href="/rooms" className="btn text-white bg-[#7C6A46]">Book now</a>
         </div>
         </div>
   );

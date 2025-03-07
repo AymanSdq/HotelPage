@@ -1,4 +1,4 @@
-
+import { NavLink } from "react-router";
 
 const Footer = () => {
   return (
@@ -12,24 +12,24 @@ const Footer = () => {
         </aside>
         <nav>
           <h6 className="footer-title raleway">Quick links</h6>
-          <a className="link link-hover raleway">Room booking</a>
-          <a className="link link-hover raleway">Rooms</a>
-          <a className="link link-hover raleway">Contact</a>
-          <a className="link link-hover raleway">Explore</a>
+          <NavLink to={"/rooms"} className="link link-hover raleway">Room booking</NavLink>  
+          <NavLink to={"/rooms"} className="link link-hover raleway">Rooms</NavLink>
+          <NavLink to={"/contact"} className="link link-hover raleway">Contact</NavLink>
+          <NavLink to={"/explore"} className="link link-hover raleway">Explore</NavLink>
         </nav>
       <nav>
         <h6 className="footer-title raleway">Company</h6>
-        <a className="link link-hover raleway">Privacy policy</a>
-        <a className="link link-hover raleway">Refund policy</a>
-        <a className="link link-hover raleway">F.A.Q</a>
-        <a className="link link-hover raleway">About</a>
+        <NavLink to={"/"} className="link link-hover raleway">Privacy policy</NavLink>  
+        <NavLink to={"/"} className="link link-hover raleway">Refund policy</NavLink>  
+        <NavLink to={"/"} className="link link-hover raleway">F.A.Q</NavLink>  
+        <NavLink to={"/about"} className="link link-hover raleway">About</NavLink>  
       </nav>
       <nav>
         <h6 className="footer-title raleway">Social media</h6>
-        <a className="link link-hover raleway">Facebook</a>
-        <a className="link link-hover">Twitter</a>
-        <a className="link link-hover raleway">Instagram</a>
-        <a className="link link-hover raleway">Linkedin</a>
+        <NavLink to={"/"} className="link link-hover raleway">Facebook</NavLink>
+        <NavLink to={"/"} className="link link-hover">Twitter</NavLink>
+        <NavLink to={"/"} className="link link-hover raleway">Instagram</NavLink>
+        <NavLink to={"/"} className="link link-hover raleway">Linkedin</NavLink>
       </nav>
       <nav>
         <h6 className="footer-title raleway">Newsletter</h6>
