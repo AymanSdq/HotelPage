@@ -25,7 +25,7 @@ const Contact = () => {
                     </div>
                     <div className="flex flex-col mt-12">
                             <label className="text-xl mb-3 mulish" htmlFor="me">Message</label>
-                            <textarea className="w-full px-4 py-3 resize-none" name="" rows={8} placeholder="Hello"></textarea>
+                            <textarea className="w-full border px-4 py-3 resize-none" name="" rows={8} placeholder="Hello"></textarea>
                         </div>
                 </section>
                 <section>
