@@ -3,7 +3,7 @@ import { NavLink } from "react-router";
 const Footer = () => {
   return (
     <>
-      <footer className="footer md:px-16 px-6  md:footer-horizontal py-15 text-white bg-[#7C6A46] ">
+      <footer className="footer md:px-16 px-6  xl:footer-horizontal py-15 text-white bg-[#7C6A46] ">
         <aside className="flex flex-col gap-4">
           <h1 className="font-bold dancing-script text-3xl -font-script ">Paradise view</h1>
           <p className="w-[277px] text-xs raleway text-justify">
@@ -34,7 +34,7 @@ const Footer = () => {
         <nav>
           <h6 className="footer-title raleway">Newsletter</h6>
           <p className="text-xs w-[234px] raleway">Kindly subscribe to our newsletter to get latest deals on our rooms and vacation discount.</p>
-          <div className="my-4 relative  md:w-[360px] w-[270px]">
+          <div className="my-4 relative  md:w-[270px] w-[200px]">
             <input type="" placeholder="Enter your email" className="bg-white text-black rounded-md py-3 border-none w-full px-4" />
             <button className="text-white bg-[#7C6A46] absolute right-[2px] top-[2px] px-4 rounded-sm bottom-[2px] ">Subscribe</button>
           </div>

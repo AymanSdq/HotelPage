@@ -12,15 +12,15 @@ const Contact = () => {
                     <p className="text-white font-semibold text-center mulish">The elegant luxury bedrooms in this gallery showcase custom interior <br />  designs & decorating ideas. View pictures and find your <br /> perfect luxury bedroom design.</p>
                 </section>
                 {/* Form */}
-                <section className="w-full px-16 py-[80px]">
-                    <div className="w-full flex justify-between">
+                <section className="w-full xl:px-16 px-6 py-[80px]">
+                    <div className="w-full flex flex-col xl:flex-row justify-between">
                         <div className="flex flex-col">
                             <label className="text-xl mb-3 mulish" htmlFor="me">Fullname</label>
-                            <input type="text" className="border px-4 py-3 w-[600px]" placeholder="e.g John Becker"/>
+                            <input type="text" className="border px-4 py-3 md:w-[450px] xl:w-[500px]" placeholder="e.g John Becker"/>
                         </div>
                         <div className="flex flex-col">
                             <label className="text-xl mb-3 mulish" htmlFor="me">Email</label>
-                            <input type="email" className="border px-4 py-3 w-[600px]" placeholder="johnbecker@gmail.com" />
+                            <input type="email" className="border px-4 py-3 md:w-[450px] xl:w-[500px]" placeholder="johnbecker@gmail.com" />
                         </div>
                     </div>
                     <div className="flex flex-col mt-12">
