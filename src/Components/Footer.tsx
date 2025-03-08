@@ -34,7 +34,7 @@ const Footer = () => {
         <nav>
           <h6 className="footer-title raleway">Newsletter</h6>
           <p className="text-xs w-[234px] raleway">Kindly subscribe to our newsletter to get latest deals on our rooms and vacation discount.</p>
-          <div className="my-4 relative  md:w-[270px] w-[200px]">
+          <div className="my-4 relative  md:w-[270px] w-[250px]">
             <input type="" placeholder="Enter your email" className="bg-white text-black rounded-md py-3 border-none w-full px-4" />
             <button className="text-white bg-[#7C6A46] absolute right-[2px] top-[2px] px-4 rounded-sm bottom-[2px] ">Subscribe</button>
           </div>
