@@ -21,25 +21,25 @@ const Home = () => {
             <section className="w-full  bg-[#FAFAFA]">
 
                 {/* Hero Section */}
-                <div className="w-full relative md:px-16 h-[calc(100vh-81px)] flex ">
-                    <div className="w-1/2 py-[59px] flex flex-col gap-6">
-                        <h1 className="text-[50px] dancing-script font-semibold text-[#7C6A46]">Paradise View</h1>
-                        <h2 className="text-[55px] leading-[70px] font-bold raleway w-[400px]">Hotel for every moment rich in emotion</h2>
+                <div className="w-full relative md:px-16 px-6 flex md:flex-row flex-col">
+                    <div className="xl:w-1/2 w-full py-[59px] flex flex-col gap-6">
+                        <h1 className="md:text-[50px] text-2xl dancing-script font-semibold text-[#7C6A46]">Paradise View</h1>
+                        <h2 className="md:text-[55px] text-4xl md:w-[400px] md:leading-[70px] font-bold raleway ">Hotel for every moment rich in emotion</h2>
                         <p className="raleway w-[261px]">Every moment feels like the first time in paradise view</p>
                         {/* Buttons */}
-                        <div className="w-full flex my-8 gap-12">
-                            <a href="/" className="text-xl px-9 py-4 rounded-full text-white bg-[#7C6A46]">Book now</a>
-                            <a href="/" className="flex items-center gap-4">
-                                <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="27.5" cy="27.5" r="27.5" fill="#00A699"/><path d="M21 36V18L34 27L21 36Z" fill="white"/></svg>
-                                <p className="text-xl">Take a tour</p>
+                        <div className="w-full flex md:my-8 my-2 md:gap-12 gap-5">
+                            <a href="/" className="md:text-xl flex justify-center items-center text-sm md:px-9 px-4 rounded-sm md:rounded-full text-white bg-[#7C6A46]">Book now</a>
+                            <a href="/" className="flex items-center gap-3">
+                                <svg className='w-12' viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="27.5" cy="27.5" r="27.5" fill="#00A699"/><path d="M21 36V18L34 27L21 36Z" fill="white"/></svg>
+                                <p className="md:text-xl text-sm">Take a tour</p>
                             </a>
                         </div>
                     </div>
                     {/* Only image */}
-                    <div className="w-1/2  bg-[url(/bghotel.png)] bg-cover ">
+                    <div className="md:w-1/2 w-full hidden xl:flex  md:bg-[url(/bghotel.png)] bg-cover ">
                     </div>
                     {/* Chekin */}
-                    <div className="left-0 md:mx-16 right-0 bg-white h-30 absolute bottom-8">
+                    <div className="left-0 md:mx-16 max-md:hidden right-0 bg-white h-30 md:absolute -bottom-16">
                         <form action="" className="w-full h-full grid grid-cols-6 bg-white">
                             <div className="col-span-1 flex justify-center items-center">
                                 <div className="flex gap-4">
@@ -103,14 +103,15 @@ const Home = () => {
                                 <button type="submit" className="text-[15px] rounded-md text-white bg-[#7C6A46] py-5 px-12">Book Now</button>
                             </div>
                         </form>
+                    
                     </div>
                 </div>
 
                 {/* Our Facilities */}
-                <div className="w-full text-center py-16 bg-white">
+                <div className="w-full text-center px-6 py-16 bg-white">
                     <h1  className="text-[40px]">Our Facilities</h1>
                     <p className="pt-2 pb-12">We offer modern (5 star) hotel facilities for your comfort.</p>
-                    <div className="w-full grid   grid-cols-4 gap-y-16" data-aos="fade-down">
+                    <div className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 md:gap-y-16 gap-y-4" data-aos="fade-down">
                         <div  className="col-span-1 mx-auto bg-[#FAFAFA] flex flex-col justify-center items-center gap-4 w-[280px]  h-[250px]">
                             <svg width="55" height="40" viewBox="0 0 55 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M36.7673 0C36.36 0 35.1855 0.534546 35.1855 0.534546L23.1055 6.64364C21.4945 7.28 20.8582 9.84727 21.8255 11.1309L25.3527 16.2509L10.9164 23.6291L18.1818 29.0836L27.28 23.6291L36.3709 29.0836L40.0145 25.44L29.1055 10.8945L38.4036 5.33091C40.3236 4.36364 40.0145 2.77091 40.0145 1.80364C40 1.04 38.7055 0 36.7673 0ZM44.5527 10.9091C43.7168 10.9084 42.8889 11.0723 42.1164 11.3915C41.3438 11.7108 40.6417 12.1791 40.0501 12.7696C39.4585 13.3602 38.989 14.0615 38.6684 14.8336C38.3479 15.6056 38.1825 16.4332 38.1818 17.2691C38.1811 18.105 38.345 18.9329 38.6643 19.7055C38.9835 20.478 39.4518 21.1802 40.0424 21.7717C40.6329 22.3633 41.3343 22.8328 42.1063 23.1534C42.8783 23.4739 43.7059 23.6393 44.5418 23.64C46.23 23.6414 47.8497 22.9722 49.0445 21.7795C50.2393 20.5867 50.9113 18.9682 50.9127 17.28C50.9142 15.5918 50.2449 13.9721 49.0522 12.7773C47.8595 11.5826 46.241 10.9105 44.5527 10.9091ZM9.09091 29.0909L0 34.5455V40L9.09091 34.5455L18.1818 40L27.28 34.5455L36.3709 40L43.6364 34.5455L54.5455 40V34.5455L43.6364 29.0909L36.3709 34.5455L27.28 29.0909L18.1818 34.5455L9.09091 29.0909Z" fill="#7C6A46"/></svg>
                             <p className="text-xl text-[#7C6A46]">Swimming Pool</p>
@@ -149,44 +150,55 @@ const Home = () => {
                 </div>
 
                 {/* Luxry Rooms */}
-                <div className="w-full md:px-16 text-center py-6 pb-14 text-white bg-[url('/Lux.png')]">
-                    <h1 className="raleway text-5xl">Luxurious Rooms</h1>
-                    <svg className="mx-auto my-4" width="138" height="6" viewBox="0 0 138 6" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="138" height="6" fill="white"/></svg>
+                <div className="w-full md:px-16 px-6 text-center py-6 pb-14 text-white bg-[url('/Lux.png')]">
+                    <h1 className="raleway md:text-5xl text-3xl">Luxurious Rooms</h1>
+                    <svg className="mx-auto my-4 h-2" width="138" viewBox="0 0 138 6" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="138" height="6" fill="white"/></svg>
                     <p>All room are design for your comfort</p>
-                    <div className="w-full grid grid-cols-3 gap-12 mt-[71px]">
-                        <div className="col-span-1 rounded-md p-6 bg-white">
-                            <div className="h-[285px] px-3 py-3 mb-4 bg-[url('/room1.png')] bg-cover rounded-sm ">
+                    <div className="w-full grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 md:mt-[71px] mt-12">
+                        
+                        <div className="col-span-1 rounded-md md:p-6 p-2 bg-white">
+                            <div className="md:h-[285px] h-[200px] md:px-3 px-2 md:py-3 py-2 md:mb-4 mb-2 bg-[url('/room1.png')] bg-cover rounded-sm ">
                                 <button className="text-white text-sm py-2 px-2 rounded-sm float-end flex bg-[#7C6A46]">2 Rooms available</button>
                             </div>
-                            <p className="raleway text-black">Television set, Extra sheets and Breakfast</p>
-                            
+                            <p className="raleway max-sm:text-sm text-black">Television set, Extra sheets and Breakfast</p>
                         </div>
-                        <div className="col-span-1  rounded-md p-6 bg-white">
-                            <div className="h-[285px] px-3 py-3 mb-4 bg-[url('/room2.png')] bg-cover rounded-sm ">
-                                <button className="text-white text-sm py-2 px-2 rounded-sm float-end flex bg-[#7C6A46]">4 Rooms available</button>
+
+                        <div className="col-span-1 rounded-md md:p-6 p-2 bg-white">
+                            <div className="md:h-[285px] h-[200px] md:px-3 px-2 md:py-3 py-2 md:mb-4 mb-2 bg-[url('/room1.png')] bg-cover rounded-sm ">
+                                <button className="text-white text-sm py-2 px-2 rounded-sm float-end flex bg-[#7C6A46]">2 Rooms available</button>
                             </div>
-                            <p className="raleway text-black">Television set, Extra sheets, Breakfast, and fireplace</p>
-                            
+                            <p className="raleway max-sm:text-sm text-black">Television set, Extra sheets and Breakfast</p>
                         </div>
-                        <div className="col-span-1  rounded-md p-6 bg-white">
-                            <div className="h-[285px] px-3 py-3 mb-4 bg-[url('/room3.png')] bg-cover rounded-sm ">
-                                <button className="text-white text-sm py-2 px-2 rounded-sm float-end flex bg-[#7C6A46]">8 Rooms available</button>
+
+                        <div className="col-span-1 rounded-md md:p-6 p-2 bg-white">
+                            <div className="md:h-[285px] h-[200px] md:px-3 px-2 md:py-3 py-2 md:mb-4 mb-2 bg-[url('/room1.png')] bg-cover rounded-sm ">
+                                <button className="text-white text-sm py-2 px-2 rounded-sm float-end flex bg-[#7C6A46]">2 Rooms available</button>
                             </div>
-                            <p className="raleway text-black">Television set, Extra sheets, Breakfast, and fireplace, Console and bed rest</p>
-                            
+                            <p className="raleway max-sm:text-sm text-black">Television set, Extra sheets and Breakfast</p>
                         </div>
                     </div>
                 </div>
 
                 {/* Testimonies */}
                 <div className="w-full text-center py-16 bg-white">
-                    <h1 className="raleway text-5xl">Testimonies</h1>
+                    <h1 className="raleway md:text-5xl text-2xl">Testimonies</h1>
                     {/* Here goes slider */}
-                    <div className='w-full pl-16 mt-14'>
-                        <Swiper slidesPerView={2.5} spaceBetween={30} modules={[Pagination]} className="mySwiper" >
+                    <div className='w-full md:pl-16 max-sm:px-6 mt-14'>
+                        <Swiper slidesPerView={2.5} spaceBetween={30} modules={[Pagination]} className="mySwiper" 
+                            breakpoints={{
+                                320: {
+                                    slidesPerView: 1,
+                                    spaceBetween: 20,
+                                },
+                                768: {
+                                    slidesPerView: 2.5,
+                                    spaceBetween: 30,
+                                },
+                            }}
+                            >
                             <SwiperSlide>
-                                <div className='w-full flex flex-col gap-13'>
-                                    <div className='w-full flex justify-between'>
+                                <div className='w-full flex flex-col md:gap-13 gap-4'>
+                                    <div className='w-full flex items-center justify-between'>
                                         <p className='text-black text-sm'>2 Mar. 2023</p>
                                         <div className='flex'>
                                             <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.61711 13L3.72895 8.19342L0 4.96053L4.92632 4.53289L6.84211 0L8.7579 4.53289L13.6842 4.96053L9.95526 8.19342L11.0671 13L6.84211 10.4513L2.61711 13Z" fill="#FFCE31"/></svg>
@@ -196,13 +208,12 @@ const Home = () => {
                                             <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.84211 3.50658V8.84342L8.99737 10.1605L8.43289 7.69737L10.3316 6.05526L7.83421 5.83289L6.84211 3.50658ZM2.61711 13L3.72895 8.19342L0 4.96053L4.92632 4.53289L6.84211 0L8.7579 4.53289L13.6842 4.96053L9.95526 8.19342L11.0671 13L6.84211 10.4513L2.61711 13Z" fill="#FFCE31"/></svg>
                                         </div>
                                     </div>
-
                                     {/* Content */}
                                     <div className='raleway '>
                                         <p className='text-justify text-sm'>
                                             <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 0L4.8 6.4H9.6V16H0V6.4L3.2 0H8ZM20.8 0L17.6 6.4H22.4V16H12.8V6.4L16 0H20.8Z" fill="#7C6A46"/></svg>
                                             The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us). Numerous conference attendees commented on the quality of the food, the quality of the service and overall positive attitude toward the conference site. Particular noteworthy is the longevity of the staff and that sense of investment in the success of every event. I usually offer suggestions for improvements (part of being a marketing professor), but there is absolutely nothing that could be improved – you have set the bar very high. </p>
-                                        <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.4 16H19.2L22.4 9.6V0H12.8V9.6H17.6M1.6 16H6.4L9.6 9.6V0H0V9.6H4.8L1.6 16Z" fill="#7C6A46"/></svg>
+                                            <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.4 16H19.2L22.4 9.6V0H12.8V9.6H17.6M1.6 16H6.4L9.6 9.6V0H0V9.6H4.8L1.6 16Z" fill="#7C6A46"/></svg>
                                     </div>
 
                                     <div className='flex items-center gap-4'>
