@@ -15,7 +15,7 @@ const Explore = () => {
                     <img  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 " src="/videopause.svg" alt="Video Start" />
                 </section>
                 {/* Section divs */}
-                <section className="md:px-16 py-16"> 
+                <section className="md:px-16 py-16 max-md:hidden"> 
                     <h1 className="raleway text-center font-semibold text-4xl">Take a tour</h1>
 
                     <div className="w-full flex flex-col gap-40 my-12">
